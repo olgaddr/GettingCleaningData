@@ -28,7 +28,7 @@ subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 
 # 1. Merge the training and the test sets to create one data set
 
-# Combaining the training and the test sets by rows
+# Combining the training and the test sets by rows
 features <- rbind(features_train, features_test)
 activity <- rbind(activity_train, activity_test)
 subject <- rbind(subject_train, subject_test)
