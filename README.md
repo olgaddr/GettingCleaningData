@@ -30,7 +30,7 @@ The R script run_analysis.R performs the following steps to produce the final ti
 
 4. Appropriately labeling the data set with descriptive variable names:
 
-\  -  Replaces first "-" with "_", remove "()" and remove second "-"
-\ -  Replaces "t" with "Time", "f"  with "Frequency", "Acc" with "Accelerometer", "Gyro" with "Gyroscope", "Mag" with "Magnitude", "BodyBody" with "Body"
+  -  Replaces first "-" with "_", remove "()" and remove second "-"  
+  -  Replaces "t" with "Time", "f"  with "Frequency", "Acc" with "Accelerometer", "Gyro" with "Gyroscope", "Mag" with "Magnitude", "BodyBody" with "Body"
 
 5. Froming the data set in step 4, creates a final tidy data set with the average of each variable for each activity and each subject: uses library(dplyr) functions group_by() and summarise_all(), then writes tidy data to text file with write.table() function.
