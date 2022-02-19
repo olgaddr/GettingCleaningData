@@ -20,6 +20,7 @@ This repository contains the following project files:
 * tidy.txt - contains the final tidy data set, hat is the output from the run_analysis.R script.  
 
 The R script run_analysis.R performs the following steps to produce the final tidy data set required in the course project:
+
 0. Getting Data: downloads data from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip and read data to the  working directory.
 
 1. Merging the training and the test sets to create one data set: combines the training and the test sets by rows, sets variables names, merges datasets with cbind().
