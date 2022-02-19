@@ -20,7 +20,7 @@ This repository contains the following project files:
 * tidy.txt - contains the final tidy data set, hat is the output from the run_analysis.R script.  
 
 The R script run_analysis.R performs the following steps to produce the final tidy data set required in the course project:
-* Getting Data: downloads data from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip and read data to the  working directory.
+0. Getting Data: downloads data from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip and read data to the  working directory.
 
 1. Merging the training and the test sets to create one data set: combines the training and the test sets by rows, sets variables names, merges datasets with cbind().
 
@@ -30,7 +30,7 @@ The R script run_analysis.R performs the following steps to produce the final ti
 
 4. Appropriately labeling the data set with descriptive variable names:
 
-* Replaces first "-" with "_", remove "()" and remove second "-"
-* Replaces "t" with "Time", "f"  with "Frequency", "Acc" with "Accelerometer", "Gyro" with "Gyroscope", "Mag" with "Magnitude", "BodyBody" with "Body"
+- * Replaces first "-" with "_", remove "()" and remove second "-"
+- * Replaces "t" with "Time", "f"  with "Frequency", "Acc" with "Accelerometer", "Gyro" with "Gyroscope", "Mag" with "Magnitude", "BodyBody" with "Body"
 
 5. Froming the data set in step 4, creates a final tidy data set with the average of each variable for each activity and each subject: uses library(dplyr) functions group_by() and summarise_all(), then writes tidy data to text file with write.table() function.
