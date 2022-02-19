@@ -36,88 +36,75 @@ Variables in the final dataset:
 ===============================
 
 ## Identififiers
-subject: the ID of the Subject
-activity: the Name of the Activity performed by the subject when measurements were taken
+* subject: the ID of the subject who performed the activity
+* activity: the name of the activity performed by the subject when measurements were taken
 
 ## Measurements
-As mentioned above,the variables remaining are just the calculatd means and standard deviations of these sets of data: (Even if I do not give a detailed description of what each data value means, you can see what it means by comparing it with the original data column.)
+Only the measurements on the mean and standard deviation for each measurement were extracte from the initial data sets. The average of each variable for each activity and each subject of data were calculated. Variable names describe the variables, measurements and summaries calculated, along with units.
 
-tBodyAccMeanX
-tBodyAccMeanY
-tBodyAccMeanZ
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccMeanX
-tGravityAccMeanY
-tGravityAccMeanZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkMeanX
-tBodyAccJerkMeanY
-tBodyAccJerkMeanZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagMean
-tBodyAccMagStd
-tGravityAccMagMean
-tGravityAccMagStd
-tBodyAccJerkMagMean
-tBodyAccJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccMeanX
-fBodyAccMeanY
-fBodyAccMeanZ
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccMeanFreqX
-fBodyAccMeanFreqY
-fBodyAccMeanFreqZ
-fBodyAccJerkMeanX
-fBodyAccJerkMeanY
-fBodyAccJerkMeanZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyAccJerkMeanFreqX
-fBodyAccJerkMeanFreqY
-fBodyAccJerkMeanFreqZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyGyroMeanFreqX
-fBodyGyroMeanFreqY
-fBodyGyroMeanFreqZ
-fBodyAccMagMean
-fBodyAccMagStd
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagStd
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroMagMeanFreq
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
-fBodyBodyGyroJerkMagMeanFreq
+ * TimeBodyAccelerometer_meanX_Mean                 
+ * TimeBodyAccelerometer_meanY_Mean                 
+ * TimeBodyAccelerometer_meanZ_Mean                 
+ * TimeGravityAccelerometer_meanX_Mean              
+ * TimeGravityAccelerometer_meanY_Mean              
+ * TimeGravityAccelerometer_meanZ_Mean              
+ * TimeBodyAccelerometerJerk_meanX_Mean             
+ * TimeBodyAccelerometerJerk_meanY_Mean             
+ * TimeBodyAccelerometerJerk_meanZ_Mean             
+ * TimeBodyGyroscope_meanX_Mean                     
+ * TimeBodyGyroscope_meanY_Mean                     
+ * TimeBodyGyroscope_meanZ_Mean                     
+ * TimeBodyGyroscopeJerk_meanX_Mean                 
+ * TimeBodyGyroscopeJerk_meanY_Mean                 
+ * TimeBodyGyroscopeJerk_meanZ_Mean                 
+ * TimeBodyAccelerometerMagnitude_mean_Mean         
+ * TimeGravityAccelerometerMagnitude_mean_Mean      
+ * TimeBodyAccelerometerJerkMagnitude_mean_Mean     
+ * TimeBodyGyroscopeMagnitude_mean_Mean             
+ * TimeBodyGyroscopeJerkMagnitude_mean_Mean         
+ * FrequencyBodyAccelerometer_meanX_Mean            
+ * FrequencyBodyAccelerometer_meanY_Mean           
+ * FrequencyBodyAccelerometer_meanZ_Mean            
+ * FrequencyBodyAccelerometerJerk_meanX_Mean        
+ * FrequencyBodyAccelerometerJerk_meanY_Mean        
+ * FrequencyBodyAccelerometerJerk_meanZ_Mean        
+ * FrequencyBodyGyroscope_meanX_Mean                
+ * FrequencyBodyGyroscope_meanY_Mean                
+ * FrequencyBodyGyroscope_meanZ_Mean                
+ * FrequencyBodyAccelerometerMagnitude_mean_Mean    
+ * FrequencyBodyAccelerometerJerkMagnitude_mean_Mean
+ * FrequencyBodyGyroscopeMagnitude_mean_Mean        
+ * FrequencyBodyGyroscopeJerkMagnitude_mean_Mean    
+ * TimeBodyAccelerometer_stdX_Mean                  
+ * TimeBodyAccelerometer_stdY_Mean                  
+ * TimeBodyAccelerometer_stdZ_Mean                  
+ * TimeGravityAccelerometer_stdX_Mean               
+ * TimeGravityAccelerometer_stdY_Mean               
+ * TimeGravityAccelerometer_stdZ_Mean               
+ * TimeBodyAccelerometerJerk_stdX_Mean              
+ * TimeBodyAccelerometerJerk_stdY_Mean              
+ * TimeBodyAccelerometerJerk_stdZ_Mean              
+ * TimeBodyGyroscope_stdX_Mean                      
+ * TimeBodyGyroscope_stdY_Mean                      
+ * TimeBodyGyroscope_stdZ_Mean                      
+ * TimeBodyGyroscopeJerk_stdX_Mean                  
+ * TimeBodyGyroscopeJerk_stdY_Mean                  
+ * TimeBodyGyroscopeJerk_stdZ_Mean                  
+ * TimeBodyAccelerometerMagnitude_std_Mean          
+ * TimeGravityAccelerometerMagnitude_std_Mean
+ * TimeBodyAccelerometerJerkMagnitude_std_Mean       
+ * TimeBodyGyroscopeMagnitude_std_Mean              
+ * TimeBodyGyroscopeJerkMagnitude_std_Mean          
+ * FrequencyBodyAccelerometer_stdX_Mean             
+ * FrequencyBodyAccelerometer_stdY_Mean             
+ * FrequencyBodyAccelerometer_stdZ_Mean             
+ * FrequencyBodyAccelerometerJerk_stdX_Mean         
+ * FrequencyBodyAccelerometerJerk_stdY_Mean         
+ * FrequencyBodyAccelerometerJerk_stdZ_Mean         
+ * FrequencyBodyGyroscope_stdX_Mean                 
+ * FrequencyBodyGyroscope_stdY_Mean                 
+ * FrequencyBodyGyroscope_stdZ_Mean                 
+ * FrequencyBodyAccelerometerMagnitude_std_Mean     
+ * FrequencyBodyAccelerometerJerkMagnitude_std_Mean 
+ * FrequencyBodyGyroscopeMagnitude_std_Mean         
+ * FrequencyBodyGyroscopeJerkMagnitude_std_Mean
