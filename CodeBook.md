@@ -40,7 +40,7 @@ Variables in the final dataset:
 * activity: the name of the activity performed by the subject when measurements were taken
 
 ## Measurements
-Only the measurements on the mean and standard deviation for each measurement were extracte from the initial data sets. The average of each variable for each activity and each subject of data were calculated. Variable names describe the variables, measurements and summaries calculated, along with units.
+Only 66 measurements on the mean and standard deviation for each measurement were extracte from the initial data sets. The average of each variable for each activity and each subject of data were calculated. Variable names describe the variables, measurements and summaries calculated, along with units.
 
  * TimeBodyAccelerometer_meanX_Mean                 
  * TimeBodyAccelerometer_meanY_Mean                 
