@@ -5,17 +5,17 @@ This project uses data from the UCI Machine Learning Repository website http://a
 
 The tidy dataset was obtained in the following steps:
 
-- Merging the training and the test sets to create one data set.
-- Extracing only the measurements on the mean and standard deviation for each measurement.
-- Uing descriptive activity names to name the activities in the data set.
-- Appropriately labeling the dataset with descriptive variable names.
+1. Merging the training and the test sets to create one data set.
+2. Extracing only the measurements on the mean and standard deviation for each measurement.
+3. Uing descriptive activity names to name the activities in the data set.
+4. Appropriately labeling the dataset with descriptive variable names.
 
 ## Repository Information
-This repository contains 3 main files:
+This repository contains the following project files:
 
+* CodeBook.md -  describes the variables, the data, and transformations or work that you performed to clean up the data and summaries calculated, along with units.
 
-run_analysis.R - This script is used to build up and perform the analysis on the required sample data.
+* run_analysis.R - This script is used to build up and perform the analysis on the required sample data.
 
-tidy.txt - This is the final output from the run_analysis.R script.  It contains a cleansed version of the sample data.
+* tidy.txt - This is the final output from the run_analysis.R script.  It contains a cleansed version of the sample data.
 
-CodeBook.md - Contains the definitions of each of the columns in our generated tidy.txt file.
