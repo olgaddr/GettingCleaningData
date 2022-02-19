@@ -13,9 +13,10 @@ The tidy dataset was obtained in the following steps:
 ## Repository Information
 This repository contains the following project files:
 
-* CodeBook.md -  describes the variables, the data, and transformations or work that you performed to clean up the data and summaries calculated, along with units.
+* CodeBook.md -  describes the variables, the data, transformations performed to tidy the data and calculated summaries calculated.
 
-* run_analysis.R - This script is used to build up and perform the analysis on the required sample data.
+* run_analysis.R - contains R script for performing the analysis and tidy the data.
 
-* tidy.txt - This is the final output from the run_analysis.R script.  It contains a cleansed version of the sample data.
+* tidy.txt - contains the final tidy data set, hat is the output from the run_analysis.R script.  
 
+The R script run_analysis.R performs the following steps to produce the final tidy data set required in the course project:
