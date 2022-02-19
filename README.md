@@ -5,10 +5,10 @@ This project uses data from the UCI Machine Learning Repository website http://a
 
 The tidy dataset was obtained in the following steps:
 
-Merging the training and the test sets to create one data set.
-Extracing only the measurements on the mean and standard deviation for each measurement.
-Uing descriptive activity names to name the activities in the data set.
-Appropriately labeling the dataset with descriptive variable names.
+- Merging the training and the test sets to create one data set.
+- Extracing only the measurements on the mean and standard deviation for each measurement.
+- Uing descriptive activity names to name the activities in the data set.
+- Appropriately labeling the dataset with descriptive variable names.
 
 ## Repository Information
 This repository contains 3 main files:
